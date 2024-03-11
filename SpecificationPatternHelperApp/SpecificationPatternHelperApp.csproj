@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<PackageId>Helper.SpecificationDesignPattern</PackageId>
+		<Title>Specification Design Pattern</Title>
+		<Version>1.0.0</Version>
+		<Authors>Özgür ATILGAN</Authors>
+		<Company>Özgür ATILGAN</Company>
+		<Product />
+		<Description>Specification Design Pattern Usage Goals : The Specification pattern allows you to define complex business rules in a single place. This eliminates repeated logic in different parts of your code, making your code simpler and easier to maintain. When you need to make changes to business rules, you only need to make changes in one place.</Description>
+		<Copyright>Copyright 2023</Copyright>
+		<PackageIcon>Bokehlicia-Captiva-Deja-dup.128.png</PackageIcon>
+		<PackageReadmeFile>Readme.md</PackageReadmeFile>
+		<RepositoryType>Git</RepositoryType>
+		<PackageTags>Helper , Specification Pattern,   Specification Design Pattern</PackageTags>
+		<IncludeSymbols>True</IncludeSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\..\..\..\Downloads\Bokehlicia-Captiva-Deja-dup.128.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.10" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Readme.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
